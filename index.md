@@ -1,5 +1,5 @@
 ---
-title: Javascript Tutorial
+title: Javascript Object Creation
 layout: home
 ---
 
