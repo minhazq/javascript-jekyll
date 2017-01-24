@@ -1,5 +1,5 @@
 ---
-title: Javascript Object Creation
+title: About Me
 layout: home
 ---
 
