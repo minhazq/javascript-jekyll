@@ -1,5 +1,5 @@
 ---
-title: Javascript
+title: About Me
 permalink: "/about/"
 layout: page
 ---
