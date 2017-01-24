@@ -1,5 +1,5 @@
 ---
-title: About
+title: Javascript Inheritance
 permalink: "/about/"
 layout: page
 ---
