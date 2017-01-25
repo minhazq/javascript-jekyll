@@ -5,7 +5,7 @@ Javascript Object Creaton:
 ---
 
 There is 3 ways you can create an Object.
-Literal Form r:
+Literal Form j:
 
 {% highlight ruby %}
 def print_hi(name)
