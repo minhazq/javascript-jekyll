@@ -8,5 +8,7 @@ There is 3 ways you can create an Object.
 Literal Form:
 
 {%highlight javascript%}
+```javascript
 var test = new Test();
+```
 {%endhighlight%}
