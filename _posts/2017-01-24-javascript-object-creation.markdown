@@ -7,7 +7,7 @@ Javascript Object Creaton:
 There is 3 ways you can create an Object.
 Literal Form:
 
-{% highlight ruby %}
+{% highlight java %}
 def print_hi(name)
   puts "Hi, #{name}"
 end
