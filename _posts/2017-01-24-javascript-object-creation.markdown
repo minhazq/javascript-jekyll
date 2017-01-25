@@ -7,6 +7,6 @@ Javascript Object Creaton:
 There is 3 ways you can create an Object.
 Literal Form:
 
-{% highlight javascript %}
+{% highlight javascript%}
 var test = new Test();
 {% endhighlight %}
