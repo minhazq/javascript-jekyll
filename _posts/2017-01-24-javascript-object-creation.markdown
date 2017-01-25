@@ -15,7 +15,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-{% highlight javaScript%}
+{% highlight JavaScript%}
 "use strict"
 
 var Emp = require("./Employee");
@@ -28,4 +28,4 @@ console.log(emp2.getNum());
 {% endhighlight %}
 
 Test code snippet
-```javascirpt var emp = new Emp`
+```javascirpt var emp = new`
