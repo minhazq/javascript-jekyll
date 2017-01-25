@@ -28,4 +28,4 @@ console.log(emp2.getNum());
 {% endhighlight %}
 
 Test code snippet
-`var emp = new Emp();`
+```javascirpt var emp = new Emp();`
