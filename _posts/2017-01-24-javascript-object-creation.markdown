@@ -15,7 +15,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-{% highlight java%}
+{% highlight javaScript%}
 "use strict"
 
 var Emp = require("./Employee");
