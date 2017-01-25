@@ -26,3 +26,6 @@ var emp2 = Emp.getInstance();
 console.log(emp1.getNum());
 console.log(emp2.getNum());
 {% endhighlight %}
+
+Test code snippet
+`var emp = new Emp();`
