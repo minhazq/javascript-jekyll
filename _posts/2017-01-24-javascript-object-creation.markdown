@@ -28,6 +28,6 @@ console.log(emp2.getNum());
 {% endhighlight %}
 
 Test code snippet
-```javascirpt
-var emp = new Test();
+> ```javascript
+var test = new Test();
 ```
