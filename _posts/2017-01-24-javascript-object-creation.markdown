@@ -3,6 +3,8 @@ title: Javascript Object Creation
 date: 2017-01-24 16:19:00 -05:00
 ---
 
+In javaScript you create an object from constructor. That means, you declare a constructor and create object out of that constructor.  If you declare functions or variable then those are also part of the constructor. Every time you create an object those methods and variable will be created as well like java constructor. 
+
 There is 6 ways you can create an Object.
 
 1. Object Constructor
@@ -11,39 +13,32 @@ There is 6 ways you can create an Object.
 
 3. Function Based
 
-5. Object.create Based
+4. Object.create Based
 
-6. Singleton Based
+5. Singleton Based
 
 <u>Object Constructor:</u>
 Object is created and then adding methods.
 
-```java
-var employee = new Employee();
-employee.name = "Richard"
-employee.sayHi = function(){
-console.log("say hi");
-}
-```
+    var employee = new Employee();
+    employee.name = "Richard"
+    employee.sayHi = function(){
+    console.log("say hi");
+    }
+
 <u>Literal constructor:</u>
 
-```java
-var employee = {
-// Your code here ...
-}
-```
+    var employee = {
+    // Your code here ...
+    }
 
 <u>Function Based:</u>
 
-```java
-function Employee(){
-// your code here
-}
-```
+    function Employee(){
+    // your code here
+    }
 
 <u>Object.create Based</u>
 You will create an Object sending Parent Object reference. This approach is also helpful creating inheritance. The following example: employee Object created from Human Object.
 
-```java
-var employee = Object.create(Human);
-```
+    var employee = Object.create(Human);
