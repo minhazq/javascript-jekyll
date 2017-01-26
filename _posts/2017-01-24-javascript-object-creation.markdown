@@ -9,9 +9,3 @@ Literal Form :
 {% highlight java %}
 var myObject = new MyObject();
 {% endhighlight %}
-
-\`\`\`javascript
-
-String st = new String();
-
-\`\`\`
