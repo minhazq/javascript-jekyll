@@ -7,7 +7,9 @@ There is 3 ways you can create an Object.
 
 Literal Form:
 
-`var Emp = { // Your code here }`
+```java
+var Emp = { // Your code here }
+```
 
 ```java
 int a = 10;
