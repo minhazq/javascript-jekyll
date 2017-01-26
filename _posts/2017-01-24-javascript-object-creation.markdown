@@ -45,7 +45,7 @@ Object is created and then adding methods. Notice that i did not declare any con
     }
 ```
 
-<u>Literal constructor:</u>
+**<u>Literal constructor:</u>**
 You define your constructor in curly braces and at the same time you assigned the instance into a variable. You did not have to use ```new``` operator. This is very shortcut and easy way to create an Object but the problem arise when you want to do some **inheritance** or trying to make **singleton** object. 
 
 ```java
@@ -54,7 +54,7 @@ You define your constructor in curly braces and at the same time you assigned th
     }
 ```
 
-<u>Function Based:</u>
+**<u>Function Based:</u>**
 In this approach you define function to create an Object with a name **not with variable**. In this case you **must** use ```new``` operator to create/instantiate the object. I like this approach because it is very similar to Java Class. 
 
 ```java
@@ -63,7 +63,7 @@ In this approach you define function to create an Object with a name **not with 
     }
 ```
 
-<u>Object.create Based</u>
+**<u>Object.create Based</u>**
 You will create an Object sending Parent Object reference. This approach is also helpful creating inheritance. The following example: employee Object created from Human Object.
 
 ```java
@@ -72,7 +72,7 @@ You will create an Object sending Parent Object reference. This approach is also
 
 This is the best way to create object from a super Object. Look in Inheritance section for more details.
 
-<u>Singleton Based</u>
+**<u>Singleton Based</u>**
 This is another way of creating an object but need to make sure that only one object will be created. The idea is more likely falls into the design pattern. The idea is, you define constructor in between curly braces but you also create another closure for ```return { ...}```. This type of definition in the constructor also called **module pattern**
 
 ```java
