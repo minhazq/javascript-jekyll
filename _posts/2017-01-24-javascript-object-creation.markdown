@@ -9,3 +9,7 @@ Literal Form :
 {% highlight java %}
 var myObject = new MyObject();
 {% endhighlight %}
+
+{% highlight js %}
+var test = function(){};
+{% endhighlight %}
