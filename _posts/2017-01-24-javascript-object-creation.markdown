@@ -13,7 +13,7 @@ Whenever you see
 }
 ```
 
-is called closure. You have to define your constructor between those two curly braces. So when you create an Object whatever you put between those two curly braces is called constructor. So the following is an example of creating a Object. 
+is called closure. You have to define your constructor between those two curly braces. So when you create an Object whatever you put between those two curly braces is called constructor. The following is an example of creating a Object. 
 
 ```java
     var employee = {
