@@ -17,3 +17,9 @@ print_hi('Tom')
 {% highlight js %}
 var test = function(){};
 {% endhighlight %}
+
+{% highlight java %}
+String st = new String("test");
+
+System.out.println(st);
+{% endhighlight %}
