@@ -70,7 +70,19 @@ You will create an Object sending Parent Object reference. This approach is also
     var employee = Object.create(Human);
 ```
 
-This is the best way to create object from a super Object. Look in Inheritance section for more details.
+This is the best way to create object from a super Object. Look in Inheritance section for more details. You can also create an object using ```new``` operator and then make one of them Super Object then other like this:
+
+```java
+var employee = new Employee();
+var human = new Human();
+//establishing human is a super class of employee
+employee.prototype = human.prototype;
+//now you must set the employee constructor
+employee.constructor = employee;
+//if you do not set the constructor then employee will use Human constructor.
+
+```
+
 
 **<u>Singleton Based</u>**
 This is another way of creating an object but need to make sure that only one object will be created. The idea is more likely falls into the design pattern. The idea is, you define constructor in between curly braces but you also create another closure for ```return { ...}```. This type of definition in the constructor also called **module pattern**
