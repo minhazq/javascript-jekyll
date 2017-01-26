@@ -15,16 +15,9 @@ print_hi('Tom')
 {% endhighlight %}
 
 {% highlight js %}
-var Emp = require("./Employee");
-\
-
-\
-var emp1 = Emp.getInstance();
-\
-var emp2 = Emp.getInstance();
-\
-
-\
+var Emp = require("./Employee");\
+var emp1 = Emp.getInstance();\
+var emp2 = Emp.getInstance();\
 console.log(emp1.getNum());
 \
 console.log(emp2.getNum());
