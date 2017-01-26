@@ -18,7 +18,7 @@ There is 6 ways you can create an Object.
 6. Singleton Based
 
 <u>Object Constructor:</u>
-
+Object is created and then adding methods.
 ```java
 var employee = new Employee();
 employee.name = "Richard"
