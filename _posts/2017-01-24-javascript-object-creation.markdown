@@ -3,7 +3,7 @@ title: Javascript Object Creation
 date: 2017-01-24 16:19:00 -05:00
 ---
 
-In javaScript you create an object from constructor. That means, you declare a constructor and create object out of that constructor.  If you declare functions or variable then those are also part of that constructor. Every time you create an object those methods and variable will also be created.  To separate methods and variable from the constructor there is a concept called  ```Prototype```. See Prototype section for details. 
+In javaScript you create an object from constructor. That means, you declare a constructor and create object out of that constructor.  If you declare functions or variable then those are also part of that constructor. Every time you create an object those methods and variable will also be created.  To separate methods and variable from the constructor there is a concept called  ```Prototype```. See Prototype section for details. Before you understand creating an Object first understand about Closure. 
 <p><u>Closure:</u></p>
 Whenever you see 
 
@@ -13,11 +13,11 @@ Whenever you see
 }
 ```
 
-is called closure. So when you create an Object whatever you put between those two curly braces is called constructor. So the following is an example of creating a Object. 
+is called closure. You have to define your constructor between those two curly braces. So when you create an Object whatever you put between those two curly braces is called constructor. So the following is an example of creating a Object. 
 
 ```java
     var employee = {
-    // Your code here ...
+    // here is your constructor definition ...
     }
 ```
 
