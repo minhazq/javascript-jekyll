@@ -35,7 +35,7 @@ There is 6 ways you can create an Object.
 5. Singleton Based
 
 <u>Object Constructor:</u>
-Object is created and then adding methods. Notice that i did not declare any constructor, i mean there is no curly braces. Then how come the object created? Object created using the Super class definition. Whenever you use ```new``` operator And you did not define anything then Object automatically created using Super Object definition. 
+Object is created and then adding methods. Notice that i did not declare any constructor, i mean there is no curly braces. Then how come the object created? Object created using the Super class definition. Whenever you use ```new``` operator And you did not define anything then Object automatically created using Super Object definition. ```toString()``` and ```value()``` and many more method is available  in the following employee Object.
 
 ```java
     var employee = new Employee();
