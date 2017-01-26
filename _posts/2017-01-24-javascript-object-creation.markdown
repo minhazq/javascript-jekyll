@@ -5,29 +5,9 @@ Javascript Object Creaton:
 ---
 
 There is 3 ways you can create an Object.
-Literal Form j:
+Literal Form :
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight java %}
+ var myObject = new MyObject();
 {% endhighlight %}
 
-{% highlight JavaScript%}
-"use strict"
-
-var Emp = require("./Employee");
-
-var emp1 = Emp.getInstance();
-var emp2 = Emp.getInstance();
-
-console.log(emp1.getNum());
-console.log(emp2.getNum());
-{% endhighlight %}
-
-Test code snippet
-> ```javascript
-var test = new Test();
-```
