@@ -1,6 +1,6 @@
 ---
 title: Welcome to Jekyll!
-date: 2017-01-24 19:56:29 Z
+date: 2017-01-24 14:56:29 -05:00
 categories:
 - jekyll
 - update
