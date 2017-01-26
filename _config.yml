@@ -19,6 +19,9 @@ url:
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 theme: minima
 gems:
 - jekyll-feed
