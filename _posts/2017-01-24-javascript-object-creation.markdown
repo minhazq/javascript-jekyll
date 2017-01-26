@@ -5,7 +5,7 @@ date: 2017-01-24 16:19:00 -05:00
 
 There is 6 ways you can create an Object.
 
-1. 1. Object Constructor
+1. Object Constructor
 
 2. Literal constructor
 
