@@ -4,7 +4,7 @@ date: 2017-01-24 16:19:00 -05:00
 ---
 
 There is 3 ways you can create an Object.
-<p>Literal Form 1</p> :
+<p>Literal Form 1</p> 
 
 {% highlight ruby %}
 def print_hi(name)
