@@ -8,12 +8,19 @@ There is 3 ways you can create an Object.
 <u>Object Literals:</u>
 
 ```java
-var Emp = { // Your code here }
+var Emp = { 
+// Your code here 
+}
 ```
+<u>Factory Functions:</u>
 
 ```java
-int a = 10;
-String st = new String();
+var Emp = { 
+// Your private code here
+  return {
+ // your public code here
+ } 
+}
 ```
 
 {% highlight ruby %}
