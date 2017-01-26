@@ -96,6 +96,7 @@ employee.constructor = employee;
 
 ```
 
+Wondering where those prototype variable came from? Scroll up and take a look at Auto create properties section. 
 
 **<u>Singleton Based</u>**
 This is another way of creating an object but need to make sure that only one object will be created. The idea is more likely falls into the design pattern. The idea is, you define constructor in between curly braces but you also create another closure for ```return { ...}```. This type of definition in the constructor also called **module pattern**
