@@ -30,7 +30,8 @@ var test = {
 }
 ```
 
-Then the auto object's name will be **test.prototype**. Look at the prototype section for more details.
+Then the auto object's name will be **test.prototype**. Look at the prototype section for more details. But did you see i just said that another auto Object created? So that Object must have prototype variable and another prototype object. Seems like it is falling into creating unlimited auto Object. But it is not. Notice the following diagram:
+
 
 Then the question is what is the prototype's value? 
 
