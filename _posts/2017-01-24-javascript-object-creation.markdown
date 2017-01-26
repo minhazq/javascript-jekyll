@@ -27,9 +27,12 @@ employee.sayHi = function(){
 console.log("say hi");
 }
 ```
-
-
-<u>Factory Functions:</u>
+<u>Literal constructor:</u>
+```java
+var employee = {
+// Your code here ...
+}
+```
 
     var Emp = { 
     // Your private code here
