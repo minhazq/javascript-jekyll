@@ -28,6 +28,7 @@ console.log("say hi");
 }
 ```
 <u>Literal constructor:</u>
+
 ```java
 var employee = {
 // Your code here ...
