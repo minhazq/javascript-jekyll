@@ -1,20 +1,19 @@
 ---
 title: Javascript Object Creation
-date: 2017-01-24 16:19:00 -05:00
+date: 2017-01-24 21:19:00
 ---
+
 
 There is 3 ways you can create an Object.
 
-Literal Form 1
+Literal Form:
 
 ```java
 
-var Emp = require("./Employee");
-var emp1 = Emp.getInstance();
-var emp2 = Emp.getInstance();
-console.log(emp1.getNum());
-console.log(emp2.getNum());
+var Emp = {
 ```
+
+&nbsp;
 
 ```java
 int a = 10;
