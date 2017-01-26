@@ -69,3 +69,5 @@ You will create an Object sending Parent Object reference. This approach is also
 ```java
     var employee = Object.create(Human);
 ```
+
+This is the best way to create object from a super Object. Look in Inheritance section for more details.
