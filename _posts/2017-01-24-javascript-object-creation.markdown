@@ -55,6 +55,7 @@ You define your constructor in curly braces and at the same time you assigned th
 ```
 
 <u>Function Based:</u>
+In this approach you define function to create an Object with a name **not with variable**. In this case you **must** use ```new``` operator to create/instantiate the object. I like this approach because it is very similar to Java Class. 
 
 ```java
     function Employee(){
