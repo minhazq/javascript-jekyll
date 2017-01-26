@@ -21,6 +21,19 @@ is called closure. You have to define your constructor between those two curly b
     }
 ```
 
+<p><u> Auto create properties: </u></p>
+The interesting point of javaScript Object is that when an Object created there is a property/variable automatically created. That property's name is **prototype**. Moreover there is another Object gets created automatically and that Object called the Object you created dot prototype . For example: 
+
+```java
+var test = {
+// code here
+}
+```
+
+Then the auto object's name will be **test.prototype**. Look at the prototype section for more details.
+
+Then the question is what is the prototype's value? 
+
 
 There is 6 ways you can create an Object.
 
