@@ -89,7 +89,7 @@ This is another way of creating an object but need to make sure that only one ob
 
 Notice it begins with an ```(``` and closed with ```)``` and after that another ```()```. Now lets see a real example of an singleton:
 
-```html
+
 <pre style='color:#000000;background:#ffffff;'><span style='color:#800000; font-weight:bold; '>var</span> Singleton <span style='color:#808030; '>=</span> <span style='color:#808030; '>(</span><span style='color:#800000; font-weight:bold; '>function</span> <span style='color:#808030; '>(</span><span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>
     <span style='color:#800000; font-weight:bold; '>var</span> instance<span style='color:#800080; '>;</span>
  
@@ -108,5 +108,4 @@ Notice it begins with an ```(``` and closed with ```)``` and after that another 
     <span style='color:#800080; '>}</span><span style='color:#800080; '>;</span>
 <span style='color:#800080; '>}</span><span style='color:#808030; '>)</span><span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
 </pre>
-```
 
