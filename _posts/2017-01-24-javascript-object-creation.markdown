@@ -16,6 +16,11 @@ console.log(emp1.getNum());
 console.log(emp2.getNum());
 ```
 
+```java
+int a = 10;
+String st = new String();
+```
+
 {% highlight ruby %}
 def print_hi(name)
 puts "Hi, #{name}"
