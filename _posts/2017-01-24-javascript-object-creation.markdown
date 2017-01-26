@@ -3,7 +3,13 @@ title: Javascript Object Creation
 date: 2017-01-24 16:19:00 -05:00
 ---
 
-There is 3 ways you can create an Object.
+There is 6 ways you can create an Object.
+1. Object Constructor
+2. Literal constructor
+3. Function Based
+4. Protoype Based
+5. Function and Prototype Based
+6. Singleton Based
 
 <u>Object Literals:</u>
 
