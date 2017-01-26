@@ -46,6 +46,7 @@ Object is created and then adding methods. Notice that i did not declare any con
 ```
 
 <u>Literal constructor:</u>
+You define your constructor in curly braces and at the same time you assigned the instance into a variable. You did not have to use ```new``` operator. This is very shortcut and easy way to create an Object but the problem arise when you want to do some **inheritance** or trying to make **singleton** object. 
 
 ```java
     var employee = {
