@@ -5,7 +5,7 @@ Javascript Object Creaton:
 ---
 
 There is 3 ways you can create an Object.
-Literal Form :
+### Literal Form :
 
 {% highlight java %}
  `var myObject = new MyObject();`
