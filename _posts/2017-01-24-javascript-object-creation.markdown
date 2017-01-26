@@ -3,7 +3,7 @@ title: Javascript Object Creation
 date: 2017-01-24 16:19:00 -05:00
 ---
 
-In javaScript you create an object from constructor. That means, you declare a constructor and create object out of that constructor.  If you declare functions or variable then those are also part of the constructor. Every time you create an object those methods and variable will also be created like java constructor.  To separate methods and variable from the constructor there is a concept called Prototype exist. See Prototype section for details.
+In javaScript you create an object from constructor. That means, you declare a constructor and create object out of that constructor.  If you declare functions or variable then those are also part of that constructor. Every time you create an object those methods and variable will also be created.  To separate methods and variable from the constructor there is a concept called  \`\`\`Prototype\`\`\` . See Prototype section for details.
 
 There is 6 ways you can create an Object.
 
