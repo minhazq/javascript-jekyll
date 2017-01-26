@@ -87,3 +87,4 @@ This is another way of creating an object but need to make sure that only one ob
 })();
 ```
 
+Notice it begins with an ```(``` and closed with ```)``` and after that another ```()```.
