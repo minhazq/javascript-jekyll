@@ -11,9 +11,7 @@ There is 6 ways you can create an Object.
 
 3. Function Based
 
-4. Protoype Based
-
-5. Function and Prototype Based
+5. Object.create Based
 
 6. Singleton Based
 
@@ -35,35 +33,17 @@ var employee = {
 }
 ```
 
-    var Emp = { 
-    // Your private code here
-      return {
-     // your public code here
-     } 
-    }
+<u>Function Based:</u>
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-\#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+```java
+function Employee(){
+// your code here
+}
+```
 
-======================
+<u>Object.create Based</u>
+You will create an Object sending Parent Object reference. This approach is also helpful creating inheritance. The following example: employee Object created from Human Object.
 
-{% highlight js %}
-var Emp = require("./Employee");\
-var emp1 = Emp.getInstance();\
-var emp2 = Emp.getInstance();\
-console.log(emp1.getNum());\
-console.log(emp2.getNum());
-{% endhighlight %}
-
-=======================
-
-{% highlight java %}
-String st = new String("test");
-
-System.out.println(st);
-{% endhighlight %}
+```java
+var employee = Object.create(Human);
+```
