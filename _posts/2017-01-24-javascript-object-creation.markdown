@@ -7,7 +7,7 @@ There is 3 ways you can create an Object.
 
 Literal Form 1
 
-```js
+```java
 
 var Emp = require("./Employee");
 var emp1 = Emp.getInstance();
