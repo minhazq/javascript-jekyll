@@ -71,3 +71,16 @@ You will create an Object sending Parent Object reference. This approach is also
 ```
 
 This is the best way to create object from a super Object. Look in Inheritance section for more details.
+
+<u>Singleton Based</u>
+This is another way of creating an object but need to make sure that only one object will be created. The idea is more likely falls into the design pattern. The idea is, you define constructor in between curly braces but you also create another closure for ```return { ...}```
+
+```java
+function MySingleTon(){
+// my private methods and variable
+return {
+// my public methods and variable
+ }
+}
+```
+
