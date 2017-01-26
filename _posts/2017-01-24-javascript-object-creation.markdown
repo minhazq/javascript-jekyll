@@ -87,4 +87,25 @@ This is another way of creating an object but need to make sure that only one ob
 })();
 ```
 
-Notice it begins with an ```(``` and closed with ```)``` and after that another ```()```.
+Notice it begins with an ```(``` and closed with ```)``` and after that another ```()```. Now lets see a real example of an singleton:
+```html
+<pre style='color:#000000;background:#ffffff;'><span style='color:#800000; font-weight:bold; '>var</span> Singleton <span style='color:#808030; '>=</span> <span style='color:#808030; '>(</span><span style='color:#800000; font-weight:bold; '>function</span> <span style='color:#808030; '>(</span><span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>
+    <span style='color:#800000; font-weight:bold; '>var</span> instance<span style='color:#800080; '>;</span>
+ 
+    <span style='color:#800000; font-weight:bold; '>function</span> createInstance<span style='color:#808030; '>(</span><span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>
+        <span style='color:#800000; font-weight:bold; '>var</span> object <span style='color:#808030; '>=</span> <span style='color:#800000; font-weight:bold; '>new</span> <span style='color:#797997; '>Object</span><span style='color:#808030; '>(</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>I am the instance</span><span style='color:#800000; '>"</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+        <span style='color:#800000; font-weight:bold; '>return</span> object<span style='color:#800080; '>;</span>
+    <span style='color:#800080; '>}</span>
+ 
+    <span style='color:#800000; font-weight:bold; '>return</span> <span style='color:#800080; '>{</span>
+        getInstance<span style='color:#800080; '>:</span> <span style='color:#800000; font-weight:bold; '>function</span> <span style='color:#808030; '>(</span><span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>
+            <span style='color:#800000; font-weight:bold; '>if</span> <span style='color:#808030; '>(</span><span style='color:#808030; '>!</span>instance<span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>
+                instance <span style='color:#808030; '>=</span> createInstance<span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+            <span style='color:#800080; '>}</span>
+            <span style='color:#800000; font-weight:bold; '>return</span> instance<span style='color:#800080; '>;</span>
+        <span style='color:#800080; '>}</span>
+    <span style='color:#800080; '>}</span><span style='color:#800080; '>;</span>
+<span style='color:#800080; '>}</span><span style='color:#808030; '>)</span><span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+</pre>
+```
+
