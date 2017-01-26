@@ -17,11 +17,16 @@ There is 6 ways you can create an Object.
 
 6. Singleton Based
 
-<u>Object Literals:</u>
+<u>Object Constructor:</u>
 
-    var Emp = { 
-    // Your code here 
-    }
+```java
+var employee = new Employee();
+employee.name = "Richard"
+employee.sayHi = function(){
+console.log("say hi");
+}
+```
+
 
 <u>Factory Functions:</u>
 
