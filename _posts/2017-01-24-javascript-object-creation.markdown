@@ -14,14 +14,17 @@ print_hi('Tom')
 \#=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+======================
+
 {% highlight js %}
 var Emp = require("./Employee");\
 var emp1 = Emp.getInstance();\
 var emp2 = Emp.getInstance();\
-console.log(emp1.getNum());
-\
+console.log(emp1.getNum());\
 console.log(emp2.getNum());
 {% endhighlight %}
+
+=======================
 
 {% highlight java %}
 String st = new String("test");
