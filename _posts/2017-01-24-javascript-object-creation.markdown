@@ -8,7 +8,9 @@ There is 3 ways you can create an Object.
 Literal Form:
 
 ```java
-var Emp = { // Your code here }
+var Emp = { 
+// Your code here 
+}
 ```
 
 ```java
